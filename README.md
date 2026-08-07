@@ -1,6 +1,6 @@
-# TianJi Global-Regional Integrated Numerical Weather Prediction System Dataset (TJ-NWP)
+# TJweather Global-Regional Integrated Numerical Weather Prediction System Dataset (SD3)
 
-This repository contains the official descriptive documentation and tutorial notebooks for the **TianJi Global-Regional Integrated Numerical Weather Prediction System Dataset (TJ-NWP)** hosted on the **AWS Registry of Open Data**.
+This repository contains the official descriptive documentation and tutorial notebooks for the **TJweather Global-Regional Integrated Numerical Weather Prediction System Dataset ** hosted on the **AWS Registry of Open Data**.
 
 TJ-NWP is a next-generation numerical weather prediction system developed by **Tianji Weather** based on the Super Dynamics on Cube (SD3) framework.
 

@@ -8,9 +8,9 @@ TJ-NWP is a next-generation numerical weather prediction system developed by **T
 
 ## 📂 Repository Structure
 
-*   [**`tj-nwp-descriptive-documentation.md`**](tj-nwp-descriptive-documentation.md): The comprehensive documentation of the dataset. It includes:
+*   [**`tj-nwp-descriptive-documentation.md`**](tj-nwp-descriptive-documentation.md): The comprehensive documentation of the datasets. It includes:
     *   S3 bucket paths, temporal/spatial coverage, and update frequencies.
-    *   Full variable lists (149–153 variables) for regional products and typhoon track data parameters.
+    *   Full variable lists (149–161 variables) for regional products, typhoon track, and TJ-GRA.
     *   Direct links to data subsets and access instructions.
 *   [**`get-to-know-a-dataset-tj-nwp.ipynb`**](get-to-know-a-dataset-tj-nwp.ipynb): An AWS Open Data "101-level" starter tutorial notebook. It demonstrates:
     *   Direct cloud-native S3 bucket exploration via unsigned requests (no AWS credentials required).
@@ -42,13 +42,14 @@ Launch Jupyter Lab or VS Code, open `get-to-know-a-dataset-tj-nwp.ipynb`, and ru
 
 ## 🪣 AWS Open Data S3 Access
 
-The dataset is publicly available on Amazon S3 in the `us-west-2` region.
+The datasets are publicly available on Amazon S3 in the `us-west-2` region.
 
 *   **S3 Bucket URL:** `s3://tj-nwp/`
 *   **Data Layout:**
     *   Southeast Asia Regional Forecasts: `s3://tj-nwp/southeast-asia/`
     *   Africa Regional Forecasts (includes dust variables): `s3://tj-nwp/africa/`
     *   Typhoon Track Forecasts: `s3://tj-nwp/typhoon-track/`
+    *   TJweather Global Reanalysis (TJ-GRA): `s3://tj-nwp/tj-gra/`
 
 Access is free and anonymous requests are permitted. 
 
